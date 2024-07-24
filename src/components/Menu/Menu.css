@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+
+.Menu-main * {
+  font-family: "Boogaloo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  border-radius: var(--border-radius-primary);
+}
+
+
+html:not(.no-js) [data-aos^=fade][data-aos^=fade].aos-animate {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+}
+[data-aos][data-aos][data-aos-delay="100"].aos-animate, body[data-aos-delay="100"] [data-aos].aos-animate {
+  transition-delay: .1s;
+}
+html:not(.no-js) [data-aos^=fade][data-aos^=fade] {
+  opacity: 0;
+  transition-property: opacity, -webkit-transform;
+  transition-property: opacity, transform;
+  transition-property: opacity, transform, -webkit-transform;
+}
+[data-aos][data-aos][data-aos-delay="100"], body[data-aos-delay="100"] [data-aos] {
+  transition-delay: 0s;
+}
+html:not(.no-js) [data-aos=fade-up] {
+  -webkit-transform: translate3d(0, 100px, 0);
+  transform: translate3d(0, 100px, 0);
+}
+.nav-link.show.active h4 {
+  color: rgb(0, 0, 0);
+}
+
+.nav-item:hover .nav-link {
+  color: #FEBE10;
+}
+
+
+.menu-img {
+  width: 200px;
+  height: 200px;
+}
+.row {
+  background-color: #FF8C00;
+}

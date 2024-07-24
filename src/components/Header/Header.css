@@ -1,0 +1,67 @@
+#mainNavigation a {
+  font-family: 'Cabin', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 2px rgb(255, 255, 255);
+}
+#mainNavigation {
+  margin-top: 0;
+  padding-top: 0;
+  }
+#mainNavigation {
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 0;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.icon-container img {
+  width: 50px;
+  height: 50px;
+  animation: shake 0.5s infinite;
+  transform-origin: center;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0) rotate(0);
+  }
+  10% {
+    transform: translateX(-5px) rotate(-5deg);
+  }
+  40% {
+    transform: translateX(5px) rotate(5deg);
+  }
+  70% {
+    transform: translateX(-5px) rotate(-5deg);
+  }
+  100% {
+    transform: translateX(0) rotate(0);
+  }
+}
+
+.nav-item a {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.nav-item a:hover {
+  color: #FF4500 ;
+}
+
+.nav-item {
+  min-width: 12vw;
+}
+

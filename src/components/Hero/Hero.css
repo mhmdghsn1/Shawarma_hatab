@@ -1,0 +1,45 @@
+/* Hero.css */
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+.hero-main {
+    background-color: var(--color-dark);
+    padding: var(--padding-primary);
+    width: 100%;
+    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
+    border-radius: var(--border-radius-primary);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+  }
+  
+  .hero-subtitle {
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: 'Acme',
+  }
+  
+  .hero-title {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: calc(var(--margin-primary)/2);
+  }
+  
+  .hero-title em {
+    font-weight: 800;
+    color: #FF4500;
+  }
+  
+  .main-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF4500;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .main-button a:hover{
+    color: #000000;
+  }
