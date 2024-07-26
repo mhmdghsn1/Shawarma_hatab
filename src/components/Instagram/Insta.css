@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Acme';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/acme/v25/RrQfboBx-C5_bx0.ttf) format('truetype');
+  }
+  
+  .MuiCard-root {
+    min-width: 150px;
+    --Card-radius: 5px; /* Increased border-radius to match Hero.css */
+  }
+  
+  .MuiCardContent-root {
+    align-items: center;
+    gap: 12px; /* Increased gap to match Hero.css */
+  }
+  
+  .MuiAvatar-root {
+    padding: 6px; /* Increased padding to match Hero.css */
+    border: 3px solid; /* Increased border width to match Hero.css */
+    border-color: #fff;
+  }
+  
+  .MuiIconButton-root {
+    margin-left: auto;
+  }
+  
+  .MuiCardOverflow-root {
+    aspect-ratio: 1;
+  }
+  
+  .MuiBox-root {
+    width: 0;
+    display: flex;
+    gap: 6px; /* Increased gap to match Hero.css */
+  }
+  
+  .MuiBox-root.MuiBox-root {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  .MuiBox-root.MuiBox-root > div {
+    border-radius: 25%;
+    width: max(8px, 4px); /* Increased width to match Hero.css */
+    height: max(8px, 4px); /* Increased height to match Hero.css */
+    background-color: #e0e0e0;
+  }
+  
+  .MuiBox-root.MuiBox-root > div:first-child {
+    background-color: #FF4500; /* Changed color to match Hero.css */
+  }
+  
+  .MuiInput-root {
+    flex: 1;
+    padding: 0;
+    --Input-focusedThickness: 0px;
+  }

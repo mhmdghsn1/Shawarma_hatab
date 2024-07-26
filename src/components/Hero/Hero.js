@@ -8,7 +8,7 @@ function Hero() {
         <h6 className='hero-subtitle'>Welcome to Shawarma Hatab</h6>
         <h4 className='hero-title'><em>Hello</em> in our restaurant</h4>
         <div className='main-button'>
-          <a href='brows.html'>Browse now</a>
+          <a href='https://www.instagram.com/shawarmahatab.lb?igsh=MXFkemViZTRsemNsZQ=='>Instagram Profile</a>
         </div>
       </div>
     </div>

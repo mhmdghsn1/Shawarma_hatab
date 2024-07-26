@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Header, Footer, Container, Hero , Menu , Location} from './components';
+import { Header, Footer, Container, Hero , Menu , Location , InstagramPost} from './components';
 
 
 const App = () => {
@@ -9,6 +9,7 @@ const App = () => {
       <Header />
       <Container>
         <Hero />
+        <InstagramPost/>
         <Menu/>
         <Location/>
       </Container>
